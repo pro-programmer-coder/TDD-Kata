@@ -9,9 +9,9 @@ class NumberPlateRegCalculatorTest {
     @Test
     public void march_test(){
         //arrange
-        int ageId = 04;
-        int expected = 2004;
-        int actual;
+        String ageId = "04";
+        String expected = "54";
+        String actual;
         NumberPlateRegCalculator calculator = new NumberPlateRegCalculator();
 
         //act
@@ -20,4 +20,19 @@ class NumberPlateRegCalculatorTest {
         //assert
         assertEquals(expected,actual);
     }
+
+//    @Test
+//    public void september_test(){
+//        //arrange
+//        int ageId = 52;
+//        int expected = 2002;
+//        int actual;
+//        NumberPlateRegCalculator calculator = new NumberPlateRegCalculator();
+//
+//        //act
+//        actual = calculator.ageCal(ageId);
+//
+//        //assert
+//        assertEquals(expected,actual);
+//    }
 }
