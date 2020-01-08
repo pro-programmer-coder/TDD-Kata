@@ -18,6 +18,6 @@ public class NumberPlateRegCalculator {
                 return Integer.toString(Integer.valueOf(ageId) - 49);
             }
         }
-        return "Negative Number";
+        return "Negative Number/zero";
     }
 }

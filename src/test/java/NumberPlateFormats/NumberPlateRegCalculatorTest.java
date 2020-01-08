@@ -40,7 +40,7 @@ class NumberPlateRegCalculatorTest {
     public void negative_number(){
         //arrange
         String ageId = "-5";
-        String expected = "Negative Number";
+        String expected = "Negative Number/zero";
         String actual;
         NumberPlateRegCalculator calculator = new NumberPlateRegCalculator();
 
@@ -55,7 +55,7 @@ class NumberPlateRegCalculatorTest {
     public void zero_test(){
         //arrange
         String ageId = "-5";
-        String expected = "Negative Number";
+        String expected = "Negative Number/zero";
         String actual;
         NumberPlateRegCalculator calculator = new NumberPlateRegCalculator();
 
